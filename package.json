@@ -1,11 +1,15 @@
 {
-  "name": "shipping-service",
+  "name": "shipping-service-35",
   "version": "1.0.0",
   "description": "Shipping service Lab2",
   "main": "index.js",
   "scripts": {
     "test": "jest tests --env=node",
     "start": "node src/app.js"
+  },
+  "engines": {
+    "node": "8.11.3",
+    "npm": "5.6.x"
   },
   "keywords": [],
   "author": "",
