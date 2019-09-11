@@ -1,7 +1,7 @@
 {
   "name": "shipping-service",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shipping service Lab2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,25 @@
   "license": "ISC",
   "jest": {
     "testEnvironment": "node"
-  }
+  },
+  "devDependencies": {
+    "nock": "^11.3.3",
+    "sinon": "^7.4.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "jest": "^24.9.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joepbeijnsberger/shipping-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joepbeijnsberger/shipping-service/issues"
+  },
+  "homepage": "https://github.com/joepbeijnsberger/shipping-service#readme"
 }
