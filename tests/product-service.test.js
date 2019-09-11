@@ -10,7 +10,7 @@ describe('Product service', function () {
       .get('/13')
       .delayBody(10)
       .reply(200, {
-        weightLB: 25.5,
+        weightLB: 165.5,
         unit: 'lbs'
       })
 
