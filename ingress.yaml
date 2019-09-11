@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: shipping-service-ingress-35
+  namespace: lab-cnb
+  labels:
+    app: shipping-service-35  
+spec:
+  rules:
+  - host: shipping-service-35.cnb-iks.eu-gb.containers.appdomain.cloud
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: shipping-service-svc-35
+          servicePort: app-port
